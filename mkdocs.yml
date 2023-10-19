@@ -1,3 +1,46 @@
 site_name: farrosall Documents
 theme:
+theme:
   name: material
+  markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  features:
+    - toc.integrate
+    - navigation.expand
+    - navigation.tabs
+    - toc.intergrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  languange: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: black
+      accent: black
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: blue grey
+      accent: lime
+
+extra: 
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/farrosall
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/farrosall?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr
